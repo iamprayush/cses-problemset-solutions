@@ -30,6 +30,10 @@ int main()
 		lengths.insert(right - point);
 
 		// insert the new point
+		/*
+		we can use this also which is easy to understand as set stores the value in ascending order
+		points.insert(point);
+		*/
 		points.insert(it, point);
 
 		// output the largest length
